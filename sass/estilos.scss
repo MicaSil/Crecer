@@ -421,7 +421,11 @@ article img {
         height: 500px;
     }
 }
-
+@media screen and (max-width:600px){
+    .slider {
+        height: 400px;
+    }
+}
 @media screen  and (max-width:400px) {
     .slider {
         margin-top: 70px;
